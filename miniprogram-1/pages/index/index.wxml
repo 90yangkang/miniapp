@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">
+    <text>最近动态：</text>
+  </view>
+  <view wx:for="{{testList}}">
+  {{index}}---{{item}}
+  </view>
+  <view class="usermotto">
+  asf
+  </view>
+  <view><text>{{myName}}</text>
+    <button bindtap="setName">点我点我</button>
+  </view>
+  <text>{{number1+number2}}</text>
+  <text bindtap="alert">alert</text>
+  <text bind:touchstart="ts">touchstart</text>
+  <text bind:touchmove="ts">touchmove</text>
+  <text bindtap="bindViewTap">animation/index</text>
+</view>

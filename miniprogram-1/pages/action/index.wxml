@@ -1,0 +1,31 @@
+理解事件捕获和冒泡
+<view
+  id="parent"
+  bind:tap="tap1"
+  capture-bind:tap="tap2"
+>
+  outer view
+  <view
+    id="child"
+    bind:tap="tap3"
+    capture-bind:tap="tap4"
+  >
+    inner view
+  </view>
+</view>
+
+阻止冒泡
+<view
+  id="parent0"
+  catch:tap="tap1"
+  style="background-color: blue;"
+>
+  outer view
+  <view
+    id="child0"
+    catch:tap="tap3"
+    style="background-color: coral;"
+  >
+    inner view
+  </view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/action/index",
+    "pages/index/index",
+    "pages/animation/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "起风了",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
