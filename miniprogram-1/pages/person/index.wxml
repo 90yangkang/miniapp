@@ -17,12 +17,24 @@
     <image style="width: 85rpx; height: 85rpx; margin-left: 30%;" src="../image/其他.png"></image>
   </view>
 
-  <view class="sub-title">个人中心</view>
-        <wux-tabs defaultCurrent="tab1">
-            <wux-tab key="tab1" title="动态"></wux-tab>
-            <wux-tab key="tab2" title="图库"></wux-tab>
-            <wux-tab key="tab3" title="收藏"></wux-tab>
-        </wux-tabs>
+  <view class="sub-title">
+    个人中心
+  </view>
+  <wux-tabs defaultCurrent="tab1">
+    <wux-tab key="tab1" title="动态"></wux-tab>
+    <wux-tab key="tab2" title="图库"></wux-tab>
+    <wux-tab key="tab3" title="收藏"></wux-tab>
+  </wux-tabs>
+
+  <view>
+    <wux-cell-group title="" label="">
+    <view>asf</view>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="标题文字" is-link extra="说明文字">asdfsf </wux-cell>
+     <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="标题文字" is-link label="附加描述" extra="说明文字"></wux-cell>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="只显示箭头" is-link></wux-cell>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="跳转到首页" is-link url="../page/index/index" open-type="switchTab"></wux-cell>
+    </wux-cell-group>
+  </view>
 </view>
 
  

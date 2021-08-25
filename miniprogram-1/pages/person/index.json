@@ -3,6 +3,9 @@
     "usingComponents": {
         "wux-tabs": "../lib/tabs/index",
         "wux-tab": "../lib/tab/index",
-        "wux-badge": "../lib/badge/index"
+        "wux-badge": "../lib/badge/index",
+
+        "wux-cell-group": "../lib/cell-group/index",
+        "wux-cell": "../lib/cell/index"
     }
 }
