@@ -1,0 +1,21 @@
+<view class="outcontainer">
+  <!-- 用户信息 -->
+  <view class="usertitle">
+    <view class="usertitleimg">
+      <image class="usertitleimgview" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi-1.jxjatv.com%2Fd%2Ffile%2F202101002700%2Fgyl2x4jh1z4.jpg&refer=http%3A%2F%2Fi-1.jxjatv.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1632453750&t=9004bbe1f6ffb8510d9cd25b2cbbf1f1">
+      </image>
+    </view>
+    <view  class="usertitleinfo">
+      <text style="font-size: 50rpx; margin-left: 15rpx;">康康呀呀</text>
+      <text style="font-size: 35rpx; margin-left: 15rpx;">动次打次动次打次</text>
+    </view>
+  </view>
+    <!-- 个人栏目 -->
+  <view style="background-color: aliceblue;">
+    <image style="width: 85rpx; height: 85rpx; margin-left: 0%;" src="../image/其他.png"></image>
+    <image style="width: 85rpx; height: 85rpx; margin-left: 30%;" src="../image/其他.png"></image>
+    <image style="width: 85rpx; height: 85rpx; margin-left: 30%;" src="../image/其他.png"></image>
+  </view>
+</view>
+
+ 

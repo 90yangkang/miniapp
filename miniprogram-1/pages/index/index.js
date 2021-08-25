@@ -38,7 +38,7 @@ Page({
       url: '../animation/index'
     })
   },
-  onLoad() {
+  onLoad(options) {  
     if (wx.getUserProfile) {
       this.setData({
         canIUseGetUserProfile: true

@@ -1,0 +1,4 @@
+<!--pages/globalData/index.wxml-->
+<view><text>{{username}}</text></view>
+
+<text bind:tap="persionClick">个人中心</text>

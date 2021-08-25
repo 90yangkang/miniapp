@@ -14,6 +14,6 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: {name:'yk',age:'12'}
   }
 })
