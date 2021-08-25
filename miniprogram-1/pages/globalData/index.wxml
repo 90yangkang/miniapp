@@ -2,3 +2,11 @@
 <view><text>{{username}}</text></view>
 
 <text bind:tap="persionClick">个人中心</text>
+
+
+<view>
+  <wux-button size="small">Button</wux-button>
+<wux-button size="default">Button</wux-button>
+<wux-button size="large">Button</wux-button>
+</view>
+ 

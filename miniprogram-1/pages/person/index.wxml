@@ -11,11 +11,18 @@
     </view>
   </view>
     <!-- 个人栏目 -->
-  <view style="background-color: aliceblue;">
+  <view style="background-color: aliceblue; display: none;">
     <image style="width: 85rpx; height: 85rpx; margin-left: 0%;" src="../image/其他.png"></image>
     <image style="width: 85rpx; height: 85rpx; margin-left: 30%;" src="../image/其他.png"></image>
     <image style="width: 85rpx; height: 85rpx; margin-left: 30%;" src="../image/其他.png"></image>
   </view>
+
+  <view class="sub-title">个人中心</view>
+        <wux-tabs defaultCurrent="tab1">
+            <wux-tab key="tab1" title="动态"></wux-tab>
+            <wux-tab key="tab2" title="图库"></wux-tab>
+            <wux-tab key="tab3" title="收藏"></wux-tab>
+        </wux-tabs>
 </view>
 
  
