@@ -6,7 +6,7 @@
       </image>
     </view>
     <view  class="usertitleinfo">
-      <text style="font-size: 50rpx; margin-left: 15rpx;">康康呀呀</text>
+      <text style="font-size: 50rpx; margin-left: 15rpx;">咿呀哟咿呀哟</text>
       <text style="font-size: 35rpx; margin-left: 15rpx;">动次打次动次打次</text>
     </view>
   </view>
@@ -21,18 +21,31 @@
     个人中心
   </view>
   <wux-tabs defaultCurrent="tab1">
-    <wux-tab key="tab1" title="动态"></wux-tab>
-    <wux-tab key="tab2" title="图库"></wux-tab>
-    <wux-tab key="tab3" title="收藏"></wux-tab>
+    <wux-tab key="tab1" id="dongtai" title="动态" bindtap="tabclick"></wux-tab>
+    <wux-tab key="tab2" id="tuku" title="图库" bindtap="tabclick"></wux-tab>
+    <wux-tab key="tab3" id="shoucang" title="收藏" bindtap="tabclick"></wux-tab>
   </wux-tabs>
 
-  <view>
-    <wux-cell-group title="" label="">
-    <view>asf</view>
-      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="标题文字" is-link extra="说明文字">asdfsf </wux-cell>
-     <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="标题文字" is-link label="附加描述" extra="说明文字"></wux-cell>
-      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="只显示箭头" is-link></wux-cell>
-      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="跳转到首页" is-link url="../page/index/index" open-type="switchTab"></wux-cell>
+  <view id="personlist" class="{{personlist}}">
+    <view class="personlistitem">itemi</view>
+    <view class="personlistitem">item2</view>
+    <view class="personlistitem">item3</view>
+  </view>
+  <view id="personimageslist" class="{{personimageslist}}">
+   <image class="personimagesitem" src="../test-img/2.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/3.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/1.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/2.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/3.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/4.png" mode="aspectFill"></image>
+   <image class="personimagesitem" src="../test-img/5.png" mode="aspectFill"></image>
+  </view>
+  <view id="personfavorites" class="{{personfavorites}}">
+    <wux-cell-group title="" label="" >
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="personfavorites" is-link extra="说明文字">asdfsf </wux-cell>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="personfavorites" is-link label="附加描述" extra="说明文字"></wux-cell>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="personfavorites" is-link></wux-cell>
+      <wux-cell thumb="http://cdn.skyvow.cn/logo.png" title="personfavorites" is-link url="../page/index/index" open-type="switchTab"></wux-cell>
     </wux-cell-group>
   </view>
 </view>

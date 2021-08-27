@@ -5,18 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
+    personlist:'displayshow',
+    personimageslist:'displayhidden',
+    personfavorites:'displayhidden',
     title:'',
     id:''
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
     this.setData({
       title: options.title,
       id: options.id
     })
+  },
+  tabclick:function(e){
+    if(e.currentTarget.id=="dongtai"){
+      this.setData({
+        personlist: 'displayshow',
+        personimageslist: 'displayhidden',
+        personfavorites: 'displayhidden'
+      })
+    }
+    else if(e.currentTarget.id=="tuku"){
+      this.setData({
+        personlist: 'displayhidden',
+        personimageslist: 'displayshow',
+        personfavorites: 'displayhidden'
+      })
+    }
+    else{
+      this.setData({
+        personlist: 'displayhidden',
+        personimageslist: 'displayhidden',
+        personfavorites: 'displayshow'
+      })
+    }
   },
 
   /**

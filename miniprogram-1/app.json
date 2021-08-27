@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/globalData/index",
     "pages/person/index",
+    "pages/globalData/index",
     "pages/action/index",
     "pages/index/index",
     "pages/animation/index",
